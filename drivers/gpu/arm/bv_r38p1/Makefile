@@ -32,6 +32,8 @@ endif
 # is not supported for out-of-tree builds.
 #
 
+ccflags-y += -O3
+
 CONFIG_MALI_MIDGARD ?= m
 ifeq ($(CONFIG_MALI_MIDGARD),m)
     CONFIG_MALI_PLATFORM_NAME ?= "devicetree"
