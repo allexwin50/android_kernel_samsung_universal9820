@@ -130,5 +130,5 @@ los-4.9-32/
 toolchain/
 AnyKernel/
 out/
-universal9820.sh
+exynos9820.sh
 log.txt
